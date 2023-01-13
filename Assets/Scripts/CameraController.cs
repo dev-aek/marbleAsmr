@@ -38,7 +38,7 @@ public class CameraController : MonoBehaviour
 
             // _camera.transform.Rotate(new Vector3(1, 0, 0), direction.y * 180);
             _camera.transform.Rotate(new Vector3(0, 1, 0), -direction.x * 180, Space.World);
-            _camera.transform.Translate(translatePosition);
+            _camera.transform.Translate(new Vector3(translatePosition.x,translatePosition.y-14,translatePosition.z));
 
             previousPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
 
