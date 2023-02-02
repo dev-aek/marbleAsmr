@@ -1,21 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class CameraController : MonoBehaviour
 {
 
-    [SerializeField] Camera _camera;
-    [SerializeField] Transform target;
+    //[SerializeField] Camera _camera;
+    [SerializeField] GameObject target;
+    public float speed = 5;
+    public float routeMSpeed = 4;
 
-    private Vector3 previousPosition;
-    private Vector3 translatePosition;
 
+    float minFov = 35f;
+    float maxFov = 100f;
+    float sensitivity = 17f;
 
-    void Awake()
-    {
-        translatePosition = _camera.transform.position;
-    }
 
     void Update()
     {
@@ -25,22 +25,17 @@ public class CameraController : MonoBehaviour
 
     void CameraMovement()
     {
-        if (Input.GetMouseButtonDown(0))
+       /* if (Input.GetMouseButtonDown(0))
         {
             previousPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
-        }
+        }*/
 
         if (Input.GetMouseButton(0))
         {
-            Vector3 direction = previousPosition - _camera.ScreenToViewportPoint(Input.mousePosition);
 
-            _camera.transform.position = target.position; //new Vector3();
-
-            // _camera.transform.Rotate(new Vector3(1, 0, 0), direction.y * 180);
-            _camera.transform.Rotate(new Vector3(0, 1, 0), -direction.x * 180, Space.World);
-            _camera.transform.Translate(new Vector3(translatePosition.x,translatePosition.y-14,translatePosition.z));
-
-            previousPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
+            transform.RotateAround(target.transform.position, Vector3.up, Input.GetAxis("Mouse X") * speed);
+            
+            //transform.RotateAround(target.transform.position, transform.right, Input.GetAxis("Mouse Y") * speed);
 
         }
     }
@@ -55,6 +50,12 @@ public class CameraController : MonoBehaviour
 
     public void ClickEffect()
     {
-        GameManager.Instance.gameMoney += 100;
+        //GameManager.Instance.gameMoney += 100;
+    }
+
+    public void CameraRouteMovemenent()
+    {
+        transform.DOMoveY(transform.position.y- routeMSpeed, 1);
+        transform.DOLocalMoveZ(transform.position.z - routeMSpeed, 1);
     }
 }

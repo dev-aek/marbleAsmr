@@ -1,0 +1,246 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/marbleAsmr/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63129
+Successfully changed project path to: D:/UnityProject/marbleAsmr/My project
+D:/UnityProject/marbleAsmr/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/marbleAsmr/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017947 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 119.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (84ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007702 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\marbleAsmr\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\marbleAsmr\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1662ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 5.550500 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.316300 ms MarkObjects: 4.628000 ms  DeleteObjects: 0.199900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 170242.772625 seconds.
+  path: Assets/Marble_ASMR
+  artifactKey: Guid(2bcc3d8c68f0b0d4b964501240691ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR using Guid(2bcc3d8c68f0b0d4b964501240691ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a35c4f3b4946fac02b99ce420023c3') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Marble_ASMR/marble.prefab
+  artifactKey: Guid(983cec072c826eb49bb464bc5d77314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/marble.prefab using Guid(983cec072c826eb49bb464bc5d77314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb97a4424d900e116583591a9631deb1') in 0.739923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.798252 seconds.
+  path: Assets/Marble_ASMR/Kaydırak
+  artifactKey: Guid(2e488436682b0304da444e06e8656d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Kaydırak using Guid(2e488436682b0304da444e06e8656d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a9a61c48c228da9e893de28b8ee18') in 0.004320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035377 seconds.
+  path: Assets/Marble_ASMR/Kaydırak/giriş.fbx
+  artifactKey: Guid(1d3828c282d7b114dba19fef0485d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Kaydırak/giriş.fbx using Guid(1d3828c282d7b114dba19fef0485d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5973be918bb8173f0655d4e5650b38ec') in 0.116642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Marble_ASMR/Kaydırak/Material.004 1.mat
+  artifactKey: Guid(bfa6cd8c35e22b54aad6fcd2886dd2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Kaydırak/Material.004 1.mat using Guid(bfa6cd8c35e22b54aad6fcd2886dd2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b768869878ce2922ec97a1aa5ad4f3d') in 0.061352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Marble_ASMR/Kaydırak/çıkış.fbx
+  artifactKey: Guid(7ab53a6cfd5cfd643a7e6a9fda84922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Kaydırak/çıkış.fbx using Guid(7ab53a6cfd5cfd643a7e6a9fda84922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c942a3784cfa7cd1b73d898e23e59') in 0.028099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.428928 seconds.
+  path: Assets/Marble_ASMR/Prefabs
+  artifactKey: Guid(82d9cedd7f693f34aa2aae2924e446b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs using Guid(82d9cedd7f693f34aa2aae2924e446b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90eea178052d83e69c8d643739fb0b57') in 0.005077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064983 seconds.
+  path: Assets/Marble_ASMR/Prefabs/altdirsek.prefab
+  artifactKey: Guid(f2398faf887010940bcb208deb7ff543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/altdirsek.prefab using Guid(f2398faf887010940bcb208deb7ff543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9148633fa7cf6e747d793d82273087c') in 0.031294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Marble_ASMR/Prefabs/yatayboru.prefab
+  artifactKey: Guid(f9608fe5362278a45b6eb7adf4b0a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/yatayboru.prefab using Guid(f9608fe5362278a45b6eb7adf4b0a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1edd071c7a46dcfe326b2cd0aefb63e') in 0.034319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Marble_ASMR/Prefabs/engel.prefab
+  artifactKey: Guid(b760053767601f340936db4504fffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/engel.prefab using Guid(b760053767601f340936db4504fffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bf9d2c987cc8fcd8a0ada30a584b99') in 0.032884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Marble_ASMR/Prefabs/top.prefab
+  artifactKey: Guid(139f437a15ad01c4ebfc19928ec5dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/top.prefab using Guid(139f437a15ad01c4ebfc19928ec5dd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403d59a8961a54aec00254db7b8942c') in 0.026049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Marble_ASMR/Prefabs/üstdirsek.prefab
+  artifactKey: Guid(7e4f9be36bdefbd4b95ffeb23974258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/üstdirsek.prefab using Guid(7e4f9be36bdefbd4b95ffeb23974258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc7068eba96f3e62e33843ece8ad206') in 0.022774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marble_ASMR/Prefabs/üstboru.prefab
+  artifactKey: Guid(1ff468577a7a6144189e7abfb5acdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/üstboru.prefab using Guid(1ff468577a7a6144189e7abfb5acdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050b1ac8554b0de0e783f2f7e069810c') in 0.033446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Marble_ASMR/Prefabs/ilkcircle.prefab
+  artifactKey: Guid(5c0db52613eb34e4696e581e2e91d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Marble_ASMR/Prefabs/ilkcircle.prefab using Guid(5c0db52613eb34e4696e581e2e91d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f18ab51fca32b9d1f0927b7ce1275a1') in 0.029411 seconds 

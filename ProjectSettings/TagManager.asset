@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - out
+  - Ball
+  - StartPoint
+  - StartPoint2
   layers:
   - Default
   - TransparentFX
